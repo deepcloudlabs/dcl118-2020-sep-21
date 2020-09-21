@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp" "/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o"
+  "/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/thread-programming.cpp" "/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

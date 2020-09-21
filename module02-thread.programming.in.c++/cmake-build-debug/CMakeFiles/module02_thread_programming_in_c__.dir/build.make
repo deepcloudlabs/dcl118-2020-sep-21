@@ -77,27 +77,27 @@ include CMakeFiles/module02_thread_programming_in_c__.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/module02_thread_programming_in_c__.dir/flags.make
 
-CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o: CMakeFiles/module02_thread_programming_in_c__.dir/flags.make
-CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o -c /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp
+CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o: CMakeFiles/module02_thread_programming_in_c__.dir/flags.make
+CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o: ../thread-programming.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o -c /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/thread-programming.cpp
 
-CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp > CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.i
+CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/thread-programming.cpp > CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.i
 
-CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp -o CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.s
+CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/thread-programming.cpp -o CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.s
 
 # Object files for target module02_thread_programming_in_c__
 module02_thread_programming_in_c___OBJECTS = \
-"CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o"
+"CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o"
 
 # External object files for target module02_thread_programming_in_c__
 module02_thread_programming_in_c___EXTERNAL_OBJECTS =
 
-module02_thread_programming_in_c__: CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o
+module02_thread_programming_in_c__: CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o
 module02_thread_programming_in_c__: CMakeFiles/module02_thread_programming_in_c__.dir/build.make
 module02_thread_programming_in_c__: CMakeFiles/module02_thread_programming_in_c__.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable module02_thread_programming_in_c__"

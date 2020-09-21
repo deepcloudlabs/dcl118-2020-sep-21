@@ -130,11 +130,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp">
-			<Option target="module02_thread_programming_in_c__"/>
-		</Unit>
 		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/study_race_condition.cpp">
 			<Option target="study_race_condition"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/thread-programming.cpp">
+			<Option target="module02_thread_programming_in_c__"/>
 		</Unit>
 		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

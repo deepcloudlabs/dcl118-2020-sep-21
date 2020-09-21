@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o"
+  "CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o"
   "module02_thread_programming_in_c__"
   "module02_thread_programming_in_c__.pdb"
 )

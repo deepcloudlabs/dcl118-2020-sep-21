@@ -3,7 +3,7 @@ project(module02_thread_programming_in_c__)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(module02_thread_programming_in_c__ main.cpp)
+add_executable(module02_thread_programming_in_c__ thread-programming.cpp)
 add_executable(study_race_condition  study_race_condition.cpp)
 target_link_libraries(module02_thread_programming_in_c__ pthread)
 target_link_libraries(study_race_condition pthread)

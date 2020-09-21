@@ -156,33 +156,6 @@ module02_thread_programming_in_c__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/build
 .PHONY : module02_thread_programming_in_c__/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 study_race_condition.o: study_race_condition.cpp.o
 
 .PHONY : study_race_condition.o
@@ -210,6 +183,33 @@ study_race_condition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/study_race_condition.cpp.s
 .PHONY : study_race_condition.cpp.s
 
+thread-programming.o: thread-programming.cpp.o
+
+.PHONY : thread-programming.o
+
+# target to build an object file
+thread-programming.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o
+.PHONY : thread-programming.cpp.o
+
+thread-programming.i: thread-programming.cpp.i
+
+.PHONY : thread-programming.i
+
+# target to preprocess a source file
+thread-programming.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.i
+.PHONY : thread-programming.cpp.i
+
+thread-programming.s: thread-programming.cpp.s
+
+.PHONY : thread-programming.s
+
+# target to generate assembly for a file
+thread-programming.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.s
+.PHONY : thread-programming.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,12 +220,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... module02_thread_programming_in_c__"
 	@echo "... study_race_condition"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... study_race_condition.o"
 	@echo "... study_race_condition.i"
 	@echo "... study_race_condition.s"
+	@echo "... thread-programming.o"
+	@echo "... thread-programming.i"
+	@echo "... thread-programming.s"
 .PHONY : help
 
 
