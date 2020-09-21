@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module02_thread_programming_in_c__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_race_condition">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/study_race_condition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_race_condition"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_race_condition/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/study_race_condition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_race_condition/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module02_thread_programming_in_c__">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/module02_thread_programming_in_c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 module02_thread_programming_in_c__"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module02_thread_programming_in_c__/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/module02_thread_programming_in_c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 module02_thread_programming_in_c__/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp">
+			<Option target="module02_thread_programming_in_c__"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/study_race_condition.cpp">
+			<Option target="study_race_condition"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

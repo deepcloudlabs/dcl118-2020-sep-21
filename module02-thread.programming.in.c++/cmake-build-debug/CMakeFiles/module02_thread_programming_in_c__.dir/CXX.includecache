@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/main.cpp
+iostream
+-
+thread
+-
+future
+-
+pthread.h
+-
+unistd.h
+-
+
