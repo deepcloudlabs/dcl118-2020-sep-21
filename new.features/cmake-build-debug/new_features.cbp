@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="new_features"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_move_constructor_and_move_semantics">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_move_constructor_and_move_semantics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_move_constructor_and_move_semantics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_move_constructor_and_move_semantics/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_move_constructor_and_move_semantics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_move_constructor_and_move_semantics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_rvalue">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_rvalue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_rvalue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_rvalue/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_rvalue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_rvalue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_forwarding_constructor">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_forwarding_constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_forwarding_constructor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_forwarding_constructor/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_forwarding_constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_forwarding_constructor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_features">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/new_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_features"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_features/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/new_features" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_features/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_decltype">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_decltype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_decltype"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_decltype/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_decltype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_decltype/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study-for-each-loop">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study-for-each-loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study-for-each-loop"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study-for-each-loop/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study-for-each-loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study-for-each-loop/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_constexpr">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_constexpr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_constexpr"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="study_constexpr/fast">
+				<Option output="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/study_constexpr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 study_constexpr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/main.cpp">
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study-explicit.cpp">
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study-for-each-loop.cpp">
+			<Option target="new_features"/>
+			<Option target="study-for-each-loop"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_auto.cpp">
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_constexpr.cpp">
+			<Option target="new_features"/>
+			<Option target="study_constexpr"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_decltype.cpp">
+			<Option target="new_features"/>
+			<Option target="study_decltype"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_forwarding_constructor.cpp">
+			<Option target="study_forwarding_constructor"/>
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_move_constructor_and_move_semantics.cpp">
+			<Option target="study_move_constructor_and_move_semantics"/>
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_rvalue.cpp">
+			<Option target="study_rvalue"/>
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/uniform-initialization.cpp">
+			<Option target="new_features"/>
+		</Unit>
+		<Unit filename="/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

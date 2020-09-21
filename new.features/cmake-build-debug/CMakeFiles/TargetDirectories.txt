@@ -1,0 +1,9 @@
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study_move_constructor_and_move_semantics.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study_rvalue.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study_forwarding_constructor.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/new_features.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study_decltype.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study-for-each-loop.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/cmake-build-debug/CMakeFiles/study_constexpr.dir

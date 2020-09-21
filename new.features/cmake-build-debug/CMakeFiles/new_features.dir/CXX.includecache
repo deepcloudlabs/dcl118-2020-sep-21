@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/main.cpp
+iostream
+-
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study-explicit.cpp
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_auto.cpp
+vector
+-
+string
+-
+list
+-
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/study_decltype.cpp
+vector
+-
+iostream
+-
+
+/home/guru/CLionProjects/2020/dcl118-sep-21/new.features/uniform-initialization.cpp
+initializer_list
+-
+
