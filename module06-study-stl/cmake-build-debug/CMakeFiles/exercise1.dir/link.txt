@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/exercise1.dir/exercise1.cpp.o CMakeFiles/exercise1.dir/country.cpp.o CMakeFiles/exercise1.dir/city.cpp.o CMakeFiles/exercise1.dir/world-util.cpp.o  -o exercise1 

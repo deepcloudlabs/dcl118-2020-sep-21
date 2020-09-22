@@ -1,0 +1,9 @@
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/exercise2.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/exercise1.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/exercise3.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/module06_study_stl.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/study-how-to-iterate.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/study-stl.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module06-study-stl/cmake-build-debug/CMakeFiles/study-map.dir
