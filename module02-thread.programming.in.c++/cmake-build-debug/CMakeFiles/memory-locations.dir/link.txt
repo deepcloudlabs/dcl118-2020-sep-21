@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/memory-locations.dir/memory-locations.cpp.o  -o memory-locations 

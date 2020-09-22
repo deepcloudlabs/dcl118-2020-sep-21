@@ -1,0 +1,10 @@
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/study_shared_ptr.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/memory_alignment_alternative.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/module03_memory_management.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/memory_alignment.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/memory_location.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/new-with-exception.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/study_weak_ptr.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug/CMakeFiles/new-without-exception.dir

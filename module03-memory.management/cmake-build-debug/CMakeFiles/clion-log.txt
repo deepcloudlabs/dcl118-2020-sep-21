@@ -1,0 +1,4 @@
+/home/guru/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/guru/CLionProjects/2020/dcl118-sep-21/module03-memory.management/cmake-build-debug

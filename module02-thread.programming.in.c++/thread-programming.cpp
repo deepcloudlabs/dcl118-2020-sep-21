@@ -52,6 +52,7 @@ auto task3 = []() { // (3): (3) -> (2) // no side-effect!, stateless function, r
     std::this_thread::sleep_for(std::chrono::milliseconds(4500));
     std::cerr << "Task3 is done." << std::endl;
 };
+
 long sequence(long n) { // 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
     auto step = 0L;
     while (n > 1) {
@@ -65,14 +66,14 @@ long sequence(long n) { // 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 
     return step;
 }
 
-std::future<long> async_sequence(long n){
+std::future<long> async_sequence(long n) {
     return std::async(sequence, n);
 }
 
-const int NUMBER_OF_CORES =  sysconf(_SC_NPROCESSORS_ONLN);
+const int NUMBER_OF_CORES = sysconf(_SC_NPROCESSORS_ONLN);
 
 int bind_self_to_core(int core_id) { // posix thread library
-    core_id = core_id % NUMBER_OF_CORES ;
+    core_id = core_id % NUMBER_OF_CORES;
 
     cpu_set_t cpuset;
     CPU_ZERO(&cpuset);
@@ -81,8 +82,10 @@ int bind_self_to_core(int core_id) { // posix thread library
     pthread_t current_thread = pthread_self();
     return pthread_setaffinity_np(current_thread, sizeof(cpu_set_t), &cpuset);
 }
-int core_id=0;
-void task_func(){
+
+int core_id = 0;
+
+void task_func() {
     bind_self_to_core(core_id++);
     // implement your task
 }
@@ -91,6 +94,9 @@ int main() {
     std::thread t10(task_func);
     std::thread t11(task_func);
     std::thread t12(task_func);
+    t10.join();
+    t11.join();
+    t12.join();
 
     Task2 task2;
     std::cerr << "app is started by " << std::this_thread::get_id() << std::endl;

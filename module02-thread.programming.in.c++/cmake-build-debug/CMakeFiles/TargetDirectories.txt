@@ -1,4 +1,8 @@
-/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/study_race_condition.dir
 /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/module02_thread_programming_in_c__.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/memory-locations.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/memory-alignment.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/thread_programming.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/study_race_condition.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/exception-free-new.dir
+/home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.programming.in.c++/cmake-build-debug/CMakeFiles/exceptional-new.dir

@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /home/guru/CLionProjects/2020/dcl118-sep-21/module02-thread.p
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/guru/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/guru/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named memory-locations
+
+# Build rule for target.
+memory-locations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memory-locations
+.PHONY : memory-locations
+
+# fast build rule for target.
+memory-locations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-locations.dir/build.make CMakeFiles/memory-locations.dir/build
+.PHONY : memory-locations/fast
+
+#=============================================================================
+# Target rules for targets named memory-alignment
+
+# Build rule for target.
+memory-alignment: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 memory-alignment
+.PHONY : memory-alignment
+
+# fast build rule for target.
+memory-alignment/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-alignment.dir/build.make CMakeFiles/memory-alignment.dir/build
+.PHONY : memory-alignment/fast
+
+#=============================================================================
+# Target rules for targets named thread_programming
+
+# Build rule for target.
+thread_programming: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thread_programming
+.PHONY : thread_programming
+
+# fast build rule for target.
+thread_programming/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_programming.dir/build.make CMakeFiles/thread_programming.dir/build
+.PHONY : thread_programming/fast
+
+#=============================================================================
 # Target rules for targets named study_race_condition
 
 # Build rule for target.
@@ -144,17 +183,144 @@ study_race_condition/fast:
 .PHONY : study_race_condition/fast
 
 #=============================================================================
-# Target rules for targets named module02_thread_programming_in_c__
+# Target rules for targets named exception-free-new
 
 # Build rule for target.
-module02_thread_programming_in_c__: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module02_thread_programming_in_c__
-.PHONY : module02_thread_programming_in_c__
+exception-free-new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exception-free-new
+.PHONY : exception-free-new
 
 # fast build rule for target.
-module02_thread_programming_in_c__/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/build
-.PHONY : module02_thread_programming_in_c__/fast
+exception-free-new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception-free-new.dir/build.make CMakeFiles/exception-free-new.dir/build
+.PHONY : exception-free-new/fast
+
+#=============================================================================
+# Target rules for targets named exceptional-new
+
+# Build rule for target.
+exceptional-new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exceptional-new
+.PHONY : exceptional-new
+
+# fast build rule for target.
+exceptional-new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exceptional-new.dir/build.make CMakeFiles/exceptional-new.dir/build
+.PHONY : exceptional-new/fast
+
+exception-free-new.o: exception-free-new.cpp.o
+
+.PHONY : exception-free-new.o
+
+# target to build an object file
+exception-free-new.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/exception-free-new.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception-free-new.dir/build.make CMakeFiles/exception-free-new.dir/exception-free-new.cpp.o
+.PHONY : exception-free-new.cpp.o
+
+exception-free-new.i: exception-free-new.cpp.i
+
+.PHONY : exception-free-new.i
+
+# target to preprocess a source file
+exception-free-new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/exception-free-new.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception-free-new.dir/build.make CMakeFiles/exception-free-new.dir/exception-free-new.cpp.i
+.PHONY : exception-free-new.cpp.i
+
+exception-free-new.s: exception-free-new.cpp.s
+
+.PHONY : exception-free-new.s
+
+# target to generate assembly for a file
+exception-free-new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/exception-free-new.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exception-free-new.dir/build.make CMakeFiles/exception-free-new.dir/exception-free-new.cpp.s
+.PHONY : exception-free-new.cpp.s
+
+exceptional-new.o: exceptional-new.cpp.o
+
+.PHONY : exceptional-new.o
+
+# target to build an object file
+exceptional-new.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exceptional-new.dir/build.make CMakeFiles/exceptional-new.dir/exceptional-new.cpp.o
+.PHONY : exceptional-new.cpp.o
+
+exceptional-new.i: exceptional-new.cpp.i
+
+.PHONY : exceptional-new.i
+
+# target to preprocess a source file
+exceptional-new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exceptional-new.dir/build.make CMakeFiles/exceptional-new.dir/exceptional-new.cpp.i
+.PHONY : exceptional-new.cpp.i
+
+exceptional-new.s: exceptional-new.cpp.s
+
+.PHONY : exceptional-new.s
+
+# target to generate assembly for a file
+exceptional-new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exceptional-new.dir/build.make CMakeFiles/exceptional-new.dir/exceptional-new.cpp.s
+.PHONY : exceptional-new.cpp.s
+
+memory-alignment.o: memory-alignment.cpp.o
+
+.PHONY : memory-alignment.o
+
+# target to build an object file
+memory-alignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-alignment.dir/build.make CMakeFiles/memory-alignment.dir/memory-alignment.cpp.o
+.PHONY : memory-alignment.cpp.o
+
+memory-alignment.i: memory-alignment.cpp.i
+
+.PHONY : memory-alignment.i
+
+# target to preprocess a source file
+memory-alignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-alignment.dir/build.make CMakeFiles/memory-alignment.dir/memory-alignment.cpp.i
+.PHONY : memory-alignment.cpp.i
+
+memory-alignment.s: memory-alignment.cpp.s
+
+.PHONY : memory-alignment.s
+
+# target to generate assembly for a file
+memory-alignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-alignment.dir/build.make CMakeFiles/memory-alignment.dir/memory-alignment.cpp.s
+.PHONY : memory-alignment.cpp.s
+
+memory-locations.o: memory-locations.cpp.o
+
+.PHONY : memory-locations.o
+
+# target to build an object file
+memory-locations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-locations.dir/build.make CMakeFiles/memory-locations.dir/memory-locations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/memory-locations.cpp.o
+.PHONY : memory-locations.cpp.o
+
+memory-locations.i: memory-locations.cpp.i
+
+.PHONY : memory-locations.i
+
+# target to preprocess a source file
+memory-locations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-locations.dir/build.make CMakeFiles/memory-locations.dir/memory-locations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/memory-locations.cpp.i
+.PHONY : memory-locations.cpp.i
+
+memory-locations.s: memory-locations.cpp.s
+
+.PHONY : memory-locations.s
+
+# target to generate assembly for a file
+memory-locations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memory-locations.dir/build.make CMakeFiles/memory-locations.dir/memory-locations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/study_race_condition.dir/build.make CMakeFiles/study_race_condition.dir/memory-locations.cpp.s
+.PHONY : memory-locations.cpp.s
 
 study_race_condition.o: study_race_condition.cpp.o
 
@@ -189,7 +355,7 @@ thread-programming.o: thread-programming.cpp.o
 
 # target to build an object file
 thread-programming.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_programming.dir/build.make CMakeFiles/thread_programming.dir/thread-programming.cpp.o
 .PHONY : thread-programming.cpp.o
 
 thread-programming.i: thread-programming.cpp.i
@@ -198,7 +364,7 @@ thread-programming.i: thread-programming.cpp.i
 
 # target to preprocess a source file
 thread-programming.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_programming.dir/build.make CMakeFiles/thread_programming.dir/thread-programming.cpp.i
 .PHONY : thread-programming.cpp.i
 
 thread-programming.s: thread-programming.cpp.s
@@ -207,7 +373,7 @@ thread-programming.s: thread-programming.cpp.s
 
 # target to generate assembly for a file
 thread-programming.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module02_thread_programming_in_c__.dir/build.make CMakeFiles/module02_thread_programming_in_c__.dir/thread-programming.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/thread_programming.dir/build.make CMakeFiles/thread_programming.dir/thread-programming.cpp.s
 .PHONY : thread-programming.cpp.s
 
 # Help Target
@@ -218,8 +384,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... module02_thread_programming_in_c__"
+	@echo "... exception-free-new"
+	@echo "... exceptional-new"
+	@echo "... memory-alignment"
+	@echo "... memory-locations"
 	@echo "... study_race_condition"
+	@echo "... thread_programming"
+	@echo "... exception-free-new.o"
+	@echo "... exception-free-new.i"
+	@echo "... exception-free-new.s"
+	@echo "... exceptional-new.o"
+	@echo "... exceptional-new.i"
+	@echo "... exceptional-new.s"
+	@echo "... memory-alignment.o"
+	@echo "... memory-alignment.i"
+	@echo "... memory-alignment.s"
+	@echo "... memory-locations.o"
+	@echo "... memory-locations.i"
+	@echo "... memory-locations.s"
 	@echo "... study_race_condition.o"
 	@echo "... study_race_condition.i"
 	@echo "... study_race_condition.s"

@@ -48,6 +48,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/memory-locations.dir/DependInfo.cmake"
+  "CMakeFiles/memory-alignment.dir/DependInfo.cmake"
+  "CMakeFiles/thread_programming.dir/DependInfo.cmake"
   "CMakeFiles/study_race_condition.dir/DependInfo.cmake"
-  "CMakeFiles/module02_thread_programming_in_c__.dir/DependInfo.cmake"
+  "CMakeFiles/exception-free-new.dir/DependInfo.cmake"
+  "CMakeFiles/exceptional-new.dir/DependInfo.cmake"
   )

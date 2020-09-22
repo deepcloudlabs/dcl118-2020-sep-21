@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/study_race_condition.dir/exception-free-new.cpp.o"
+  "CMakeFiles/study_race_condition.dir/memory-locations.cpp.o"
   "CMakeFiles/study_race_condition.dir/study_race_condition.cpp.o"
   "study_race_condition"
   "study_race_condition.pdb"

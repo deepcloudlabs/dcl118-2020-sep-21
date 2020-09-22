@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/exceptional-new.dir/exceptional-new.cpp.o  -o exceptional-new 

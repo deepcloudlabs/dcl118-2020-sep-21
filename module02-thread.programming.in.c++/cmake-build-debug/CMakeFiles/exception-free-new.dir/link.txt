@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/exception-free-new.dir/exception-free-new.cpp.o  -o exception-free-new 

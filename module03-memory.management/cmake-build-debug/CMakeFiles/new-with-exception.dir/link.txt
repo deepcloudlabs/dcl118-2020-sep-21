@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/new-with-exception.dir/new-with-exception.cpp.o  -o new-with-exception 

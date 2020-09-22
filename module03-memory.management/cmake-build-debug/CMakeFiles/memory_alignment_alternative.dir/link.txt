@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/memory_alignment_alternative.dir/memory_alignment_alternative.cpp.o  -o memory_alignment_alternative 
