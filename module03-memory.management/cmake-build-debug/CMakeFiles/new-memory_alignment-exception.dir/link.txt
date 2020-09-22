@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/new-memory_alignment-exception.dir/memory_alignment.cpp.o  -o new-memory_alignment-exception 

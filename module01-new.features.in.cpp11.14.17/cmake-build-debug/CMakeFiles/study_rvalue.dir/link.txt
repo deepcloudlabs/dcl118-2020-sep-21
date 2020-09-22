@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/study_rvalue.dir/study_rvalue.cpp.o  -o study_rvalue 

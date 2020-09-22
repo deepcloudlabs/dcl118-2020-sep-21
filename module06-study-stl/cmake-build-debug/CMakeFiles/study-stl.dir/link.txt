@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/study-stl.dir/study-stl.cpp.o  -o study-stl 

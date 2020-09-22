@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/study-for-each-loop.dir/study-for-each-loop.cpp.o  -o study-for-each-loop 

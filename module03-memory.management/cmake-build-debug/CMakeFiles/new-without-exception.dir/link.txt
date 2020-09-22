@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/new-without-exception.dir/new-without-exception.cpp.o  -o new-without-exception 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/study_weak_ptr.dir/study_weak_ptr.cpp.o  -o study_weak_ptr 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/thread_programming.dir/thread-programming.cpp.o  -o thread_programming  -lpthread 
