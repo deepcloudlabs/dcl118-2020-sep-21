@@ -20,9 +20,11 @@ int main(int, char**) {
 
     auto db = conn["world"];
     // db.countries1.find({"continent": "Asia"})
+    mongocxx::options::find opts{};
+    opts.projection(document{} << "_id" << 0 << "name" << 1 << "population" << 1 << "continent" << 1 << finalize);
     auto cursor = db["countries1"].find({
         document{} << "continent" << "Asia" << finalize // {"continent": "Asia"}
-    });
+    },opts);
 
     for (auto&& doc : cursor ) {
         std::cout << bsoncxx::to_json(doc) << std::endl;

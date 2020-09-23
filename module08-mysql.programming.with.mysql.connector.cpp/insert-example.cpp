@@ -22,7 +22,7 @@ int main() {
 
         pstmt = con->prepareStatement("UPDATE Country set population=population+1 where continent='Asia'");
 		auto rowsEffected = 0;
-        //TODO: execute update statement
+        rowsEffected = pstmt->executeUpdate() ;
         cout << rowsEffected << " rows are affected!" << endl;
         delete pstmt;
 
@@ -30,7 +30,7 @@ int main() {
         pstmt = con->prepareStatement("SELECT code,name,population FROM Country where continent='Asia'");
         res = pstmt->executeQuery();
 
-        //TODO: Fetch in reverse = descending order!
+        res->afterLast();
         while (res->previous())
             cout << res->getString("code")
                  << "\t"
