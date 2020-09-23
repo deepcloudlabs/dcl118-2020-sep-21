@@ -1,6 +1,6 @@
 #include "city.h"
-#include "country.h" 
-#include "world-util.h" 
+#include "country.h"
+#include "world-util.h"
 
 #include <set>
 #include <map>
@@ -13,16 +13,16 @@
 using namespace std;
 using namespace world;
 
-std::map<int,std::shared_ptr<world::city>> cities;
-std::map<std::string,std::shared_ptr<world::country>> countries;
+std::map<int, std::shared_ptr<world::city>> cities;
+std::map<std::string, std::shared_ptr<world::country>> countries;
 
-int main(int argc, char* argv[]){
-	create_world();
-	
-	auto richestCountryEntry= //TODO: Find the richest country
-	auto richestCountry= *(richestCountryEntry->second);
-	
-	cout << richestCountry << endl;	
-		
-	return 0;
+int main(int argc, char *argv[]) {
+    create_world();
+
+    auto richestCountryEntry = //TODO: Find the richest country
+    auto richestCountry = *(richestCountryEntry->second);
+
+    cout << richestCountry << endl;
+
+    return 0;
 }

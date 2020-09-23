@@ -39,11 +39,11 @@ int main() {
     std::cerr << "size: " << numbers.size() << std::endl;
     // std::cerr << "capacity: " << numbers.capacity() << std::endl;
     for (auto number : numbers)
-        std::cout << number << " " ;
+        std::cout << number << " ";
     std::cout << std::endl;
     numbers.resize(16);
     for (auto number : numbers)
-        std::cout << number << " " ;
+        std::cout << number << " ";
     std::cout << std::endl;
     return 0;
 }
